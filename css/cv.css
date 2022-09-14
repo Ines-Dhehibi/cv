@@ -1,0 +1,71 @@
+html { /* Définition des variables */
+    --white: #fff;
+    --black: #000;
+    --gray: #f8f8f8;
+    --gray-light: #efefef;
+    --bluelight: #00bfff;
+    --blue: #366c85;
+    --shadow: 0 0 10px var(--gray);
+
+}
+
+.navigation {
+    background-color: rgb(166, 197, 238);
+    box-shadow: var(--shadow);
+}
+
+.nav-item .nav-link {
+    color: var(--white);
+    font-size: 1.2em;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.my-fluid {
+    margin-top: 50px;
+}
+
+.my-about {
+    background: rgb(180, 128, 230);
+}
+
+.my-skills {
+    background-color:coral;
+}
+
+.my-works {
+    background-color:cornflowerblue;
+    box-shadow: var(--shadow);
+}
+
+.my-works h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.my-etudes {
+    background: rgb(245, 179, 192);
+}
+
+.my-loisirs {
+    background-color: darkcyan;
+}
+
+.my-portfolio {
+    background-color: rgb(233, 189, 79);
+}
+
+.my-about, .my-skills, .my-works, .my-etudes, .my-loisirs, .my-portfolio {
+    padding: 50px 0 50px 0;
+}
+
+.my-about .container {
+    padding: 20px;
+    box-shadow: var(--shadow);
+}
+
+.myhtml, .mycss, .myjs, .mybootstrap, .myphp, .mysymfony {
+    font-size: 5vh;
+    text-align: center;
+}
